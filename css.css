@@ -1,0 +1,77 @@
+body{  /*全部的字體設為微軟正黑體*/
+	font-family:"微軟正黑體";
+}
+.nav-link{
+	font-size: 20px;
+	margin:0 10px 0 10px;
+}
+.item{
+	border-style: solid;
+	border-width: 1px;
+}
+.product_name{
+	font-size: 20px;
+	margin: 8%;
+	text-align: center;
+}
+.product_price{
+	color: red;
+	font-size: 20px;
+	text-align: center;
+}
+.product_store{
+	font-size: 15px;
+}
+
+.product_sm_store{
+	border-style: solid;
+	border-width:1px;
+}
+.product_sm_price{
+	float: right;
+	padding: 5px 0px; 
+}
+.product_sm_name{
+	margin:auto; 
+	margin-left: 3%;
+}
+
+.border span{
+	font-size: 15px;
+
+}
+.border_love{
+	border-right: dashed;
+}
+.info{
+	border-right:solid; 
+	padding: 4% 0;
+}
+.height1{
+	height:150px;
+}
+.frame{
+	display:inline-block;
+	width:40%;
+	max-height:400px;
+	min-height:400px;
+	overflow: auto;
+	border-radius:50px;
+	background:	#EDEDED
+}
+
+#map {
+	margin:2% auto;
+	text-align: center;
+    height: 600px;
+    width: 95%;
+    }
+
+.background{
+	padding:5% 0%; 
+	background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url("icon./background.jpg");
+	height: 50%;
+}
+.w-5{
+	width: 10%;
+   }
